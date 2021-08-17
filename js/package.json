@@ -1,0 +1,20 @@
+{
+  "name": "simpleblockchain",
+  "version": "1.0.0",
+  "description": "Just a simple implementation of a blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=* node src/index.js",
+    "test": "test"
+  },
+  "author": "Will",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "moment": "^2.29.1"
+  }
+}
